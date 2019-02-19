@@ -1,0 +1,23 @@
+header.head.active {height:80px;} 
+
+
+.box1{
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .box1{
+        width: 33%;
+        text-align: center;
+    }
+    
+    .wrapbox {
+    width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+
+}
