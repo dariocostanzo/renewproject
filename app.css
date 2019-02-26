@@ -1,15 +1,97 @@
-header.head.active {height:80px;} 
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
 
+body{
+    font-family: 'Raleway', Helvetica, sans-serif !important;
+}
+
+header.head.active {
+    height:80px;
+} 
+
+.fab, .fa, .fas {
+    color: white;
+    font-size: 40px;
+    float: left;
+    padding: 2px;
+  }
+
+  .fas {
+    color: white;
+    font-size: 30px;
+    float: left;
+    padding: 2px;
+  }
+
+  .socicon{
+      width: 120px;
+      margin: 0 auto;
+      padding: 20px;
+  }
+
+  .infoico{
+    width: 100px;
+    margin: 0 auto;
+ 
+}
 
 .box1{
     text-align: center;
+    margin: 0 auto;
+}
+.box2{
+    text-align: center;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+    padding: 20px;
 }
 
-@media only screen and (min-width: 768px) {
+.banner {
+    background: url("https://t3.ftcdn.net/jpg/01/18/74/18/240_F_118741855_tBbHoPtEp4SqgNjirSEFebee5WqixMqg.jpg") no-repeat;
+    height: 200px;
+    background-position: center;    
+}
+
+.box2 {
+    background-color: lightblue;
+    height: 250px;
+    margin-bottom: 0 auto;
+ }
+ footer{
+     background-color: lightblue;
+     padding-bottom: 20px;
+ }
+
+.info p{
+    height: 40px;
+    line-height: 40px; /*interline*/
+}
+
+.col{
+    width: 250px;
+}
+.txt {
+    text-align: left;
+    width: 180px;
+    padding-left: 10px;
+}
+.ico{
+    width: 40px;
+    float: left;
+}
+
+ @media only screen and (min-width: 768px)  { /* da ipad in poi */
 
     .box1{
         width: 33%;
         text-align: center;
+        padding: 10px;
+    }
+    .box2{
+        width: 33%;
+        text-align: center;
+        padding: 10px;
     }
     
     .wrapbox {
@@ -17,7 +99,41 @@ header.head.active {height:80px;}
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-}
+    }
 
 
-}
+    h1 {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .info {
+        padding: 40px;
+
+    }
+    .menu {
+        padding: 40px;
+       
+    }
+    .social {
+        padding: 40px;
+    }
+
+    ul{ 
+        list-style-type: none;
+      }
+
+    h3{
+        text-align: center;
+    }
+    li{
+        text-align: left;
+    }
+
+    .col1, .infoico{
+        width: 50%;
+        float: left;
+    }
+
+
+} /*media query*/
